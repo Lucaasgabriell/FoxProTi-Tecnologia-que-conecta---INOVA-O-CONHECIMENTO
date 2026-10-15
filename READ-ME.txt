@@ -1,0 +1,27 @@
+FOXPROTI — TECNOLOGIA QUE CONECTA
+
+Site institucional estático, em português, com identidade visual e conteúdo próprios da FoxProTi. Apresenta áreas da Tecnologia da Informação e caminhos para aprender e explorar a tecnologia.
+
+CONTEÚDO
+A página apresenta programação, segurança da informação, suporte técnico, qualidade de software e dados. Também reúne os canais de contato da FoxProTi, em Jacareí, SP, e para atendimento online.
+
+VISUALIZAÇÃO
+Abra index.html em um navegador. Não são necessários instalação, compilação ou gerenciador de pacotes.
+
+ARQUIVOS PRINCIPAIS
+index.html       Estrutura e conteúdo da página
+termos-de-uso.html Termos de uso ligados pelo rodapé
+css/style.css    Identidade visual e estilos responsivos
+js/main.js       Menu de navegação em telas pequenas
+images/logo.png  Logotipo usado na página
+images/tecnologia*.jpg  Fotos nos cartões das áreas de TI
+
+A página não carrega frameworks ou bibliotecas externas. Os demais arquivos em images/ permanecem no repositório, mas não são carregados pela página atual.
+
+CONTATO
+WhatsApp: (12) 99776-3927
+E-mail: foxproti@gmail.com
+Facebook e Instagram: links disponíveis na página.
+
+DIREITOS AUTORAIS
+Consulte LICENSE.txt para o escopo dos direitos sobre materiais originais da FoxProTi. Esse arquivo não cobre materiais de terceiros nem concede direitos sobre arquivos cuja titularidade ou autorização de uso não esteja estabelecida.

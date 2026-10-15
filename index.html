@@ -1,198 +1,224 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="pt-BR">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#101b2d">
-  <meta name="description" content="Conheça a Tecnologia da Informação, suas principais áreas de atuação e as possibilidades para criar soluções digitais.">
+  <meta name="theme-color" content="#101c2b">
+  <meta name="description" content="FoxProTi conecta conhecimento e tecnologia. Explore áreas da Tecnologia da Informação e encontre caminhos para aprender e inovar.">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="pt_BR">
-  <meta property="og:title" content="FoxProTi | Tecnologia que conecta - Inovação & Conhecimento">
+  <meta property="og:title" content="FoxProTi — Tecnologia que conecta">
   <meta property="og:description" content="Conhecimento, inovação e caminhos profissionais no universo da Tecnologia da Informação.">
-  <title>FoxProTi | Tecnologia que conecta - Inovação & Conhecimento</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="images/logo.png" type="image/x-icon" rel="icon">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <title>FoxProTi — Tecnologia que conecta</title>
+  <link rel="icon" href="images/logo.png" type="image/png">
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
 
   <header class="site-header">
-    <nav class="navbar navbar-expand-lg navbar-dark container" aria-label="Navegação principal">
-      <a class="navbar-brand" href="#inicio" aria-label="FoxProTi, início">
+    <div class="header-inner">
+      <a class="brand" href="#inicio" aria-label="FoxProTi, início">
         <img src="images/logo.png" alt="FoxProTi">
       </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#siteNav" aria-controls="siteNav" aria-expanded="false" aria-label="Abrir ou fechar menu">
-        <span class="navbar-toggler-icon"></span>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Abrir menu">
+        <span></span><span></span>
       </button>
-      <div class="collapse navbar-collapse" id="siteNav">
-        <ul class="navbar-nav ml-auto align-items-lg-center">
-          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre a TI</a></li>
-          <li class="nav-item"><a class="nav-link" href="#areas">Áreas de atuação</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
-          <li class="nav-item ml-lg-3">
-            <a class="btn btn-accent nav-cta" href="https://api.whatsapp.com/send?phone=5512997763927" target="_blank" rel="noopener noreferrer">
-              Fale conosco <span aria-hidden="true">↗</span>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+      <nav class="site-nav" id="site-nav" aria-label="Navegação principal">
+        <a href="#sobre">Nosso olhar</a>
+        <a href="#areas">Áreas da TI</a>
+        <a href="#caminhos">Aprender e explorar</a>
+        <a class="nav-cta" href="#contato">Fale com a FoxProTi <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
   </header>
 
   <main id="conteudo">
     <section class="hero" id="inicio" aria-labelledby="hero-title">
-      <div class="hero-shade" aria-hidden="true"></div>
-      <div class="container hero-content">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-inner">
         <div class="hero-copy">
-          <p class="eyebrow"><span class="eyebrow-mark" aria-hidden="true"></span> TECNOLOGIA DA INFORMAÇÃO</p>
-          <h1 id="hero-title">Ideias que viram<br><span>soluções digitais.</span></h1>
-          <p class="hero-lead">Entenda como a tecnologia transforma o nosso dia a dia e descubra caminhos para fazer parte dessa mudança.</p>
+          <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span> TECNOLOGIA QUE CONECTA</p>
+          <h1 id="hero-title">Entenda a tecnologia.<br><span>Descubra o que ela pode abrir.</span></h1>
+          <p class="hero-lead">Informação clara para explorar o universo da Tecnologia da Informação — das primeiras linhas de código à proteção de dados.</p>
           <div class="hero-actions">
-            <a class="btn btn-accent btn-lg" href="#sobre">Explore o universo da TI <span aria-hidden="true">↓</span></a>
-            <a class="hero-text-link" href="#areas">Conheça as áreas <span aria-hidden="true">→</span></a>
+            <a class="button button-orange" href="#areas">Explore as áreas da TI <span aria-hidden="true">↓</span></a>
+            <a class="text-link text-link-light" href="#sobre">Conheça a FoxProTi <span aria-hidden="true">→</span></a>
           </div>
+          <div class="hero-note"><span>CONHECIMENTO</span><i aria-hidden="true"></i><span>INOVAÇÃO</span><i aria-hidden="true"></i><span>CONEXÃO</span></div>
         </div>
-        <div class="hero-note" aria-label="Inovação, conhecimento e conexão">
-          <span>INOVAÇÃO</span><i aria-hidden="true"></i><span>CONHECIMENTO</span><i aria-hidden="true"></i><span>CONEXÃO</span>
+
+        <div class="hero-visual" role="img" aria-label="Ilustração: diferentes áreas da tecnologia conectadas">
+          <div class="visual-orbit orbit-one" aria-hidden="true"></div>
+          <div class="visual-orbit orbit-two" aria-hidden="true"></div>
+          <div class="visual-lines" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+          <div class="visual-core"><span>TI</span><small>IDEIAS<br>EM CONEXÃO</small></div>
+          <div class="orbit-label label-code"><b>&lt;/&gt;</b><span>CRIAR</span></div>
+          <div class="orbit-label label-shield"><b>◇</b><span>PROTEGER</span></div>
+          <div class="orbit-label label-support"><b>↗</b><span>CONECTAR</span></div>
+          <div class="orbit-label label-data"><b>▦</b><span>COMPREENDER</span></div>
+          <div class="visual-caption"><span class="caption-dot" aria-hidden="true"></span> UMA ÁREA LEVA A OUTRA</div>
+          <span class="visual-index">FOXPROTI / MAPA 01</span>
         </div>
       </div>
-      <a class="scroll-cue" href="#sobre" aria-label="Role para conhecer o site"><span aria-hidden="true"></span></a>
+      <div class="hero-bottom"><span>INOVAÇÃO &amp; CONHECIMENTO</span><a href="#sobre">ROLE PARA EXPLORAR <span aria-hidden="true">↓</span></a></div>
     </section>
 
-    <section class="intro-section section-space" id="sobre" aria-labelledby="intro-title">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6 intro-copy">
-            <p class="eyebrow eyebrow-dark">UM MUNDO EM MOVIMENTO</p>
-            <h2 id="intro-title">A tecnologia está em tudo o que nos conecta.</h2>
-            <p>A Tecnologia da Informação reúne recursos e conhecimentos usados para criar, armazenar, processar e compartilhar dados. Ela está presente nas empresas, nos serviços e em tarefas do dia a dia.</p>
-            <p>Por trás de cada solução digital, há profissionais que planejam, desenvolvem e mantêm sistemas para tornar a informação útil, acessível e segura.</p>
-            <a class="text-link" href="#areas">Conheça algumas áreas <span aria-hidden="true">→</span></a>
-          </div>
-          <div class="col-lg-6 intro-visual">
-            <div class="intro-art">
-              <span class="art-orbit art-orbit-one" aria-hidden="true"></span>
-              <span class="art-orbit art-orbit-two" aria-hidden="true"></span>
-              <span class="art-tag art-tag-top" aria-hidden="true">IDEIAS <b>+</b> TECNOLOGIA</span>
-              <img src="images/tecnologia17.png" alt="Notebook, ferramenta de trabalho de profissionais de tecnologia" loading="lazy" decoding="async">
-              <span class="art-tag art-tag-bottom" aria-hidden="true"><b>01</b> INFORMAÇÃO EM MOVIMENTO</span>
-            </div>
-          </div>
+    <section class="intro section-pad" id="sobre" aria-labelledby="intro-title">
+      <div class="section-kicker"><span>01</span><span>O NOSSO OLHAR</span></div>
+      <div class="intro-layout">
+        <h2 id="intro-title">Tecnologia faz parte do cotidiano. <em>Conhecê-la muda a perspectiva.</em></h2>
+        <div class="intro-copy">
+          <p>A Tecnologia da Informação reúne ferramentas e conhecimentos para criar, guardar, processar e compartilhar dados. Ela está por trás de serviços, empresas e tarefas que usamos todos os dias.</p>
+          <p>A FoxProTi aproxima esse universo de quem quer entender melhor como as soluções digitais funcionam e quais caminhos existem para participar da transformação.</p>
+          <a class="text-link" href="#areas">Veja algumas áreas da TI <span aria-hidden="true">→</span></a>
         </div>
       </div>
-    </section>
-
-    <section class="mission-section" aria-labelledby="mission-title">
-      <div class="mission-overlay" aria-hidden="true"></div>
-      <div class="container mission-content">
-        <div class="mission-copy">
-          <p class="eyebrow">TECNOLOGIA COM PROPÓSITO</p>
-          <h2 id="mission-title">Mais do que máquinas.<br><span>Novas possibilidades.</span></h2>
-          <p>Da comunicação à análise de dados, a TI ajuda a resolver problemas reais e cria novas formas de trabalhar, aprender e viver.</p>
-        </div>
-        <div class="mission-stamp" aria-hidden="true"><span>O FUTURO</span><b>é construído<br>em conjunto.</b><i>FOXPROTI · 2026</i></div>
+      <div class="principles" aria-label="Princípios da FoxProTi">
+        <div><span class="principle-mark mark-signal" aria-hidden="true">⌁</span><b>Curiosidade</b><small>Boas perguntas abrem caminhos.</small></div>
+        <div><span class="principle-mark mark-spark" aria-hidden="true">✳</span><b>Conhecimento</b><small>Entender aproxima a tecnologia.</small></div>
+        <div><span class="principle-mark mark-link" aria-hidden="true">↗</span><b>Conexão</b><small>Ideias crescem quando circulam.</small></div>
       </div>
     </section>
 
-    <section class="areas-section section-space" id="areas" aria-labelledby="areas-title">
-      <div class="container">
-        <div class="section-heading">
-          <div>
-            <p class="eyebrow eyebrow-dark">CAMINHOS PROFISSIONAIS</p>
-            <h2 id="areas-title">Encontre sua área.</h2>
+    <section class="areas section-pad" id="areas" aria-labelledby="areas-title">
+      <div class="section-heading">
+        <div>
+          <div class="section-kicker"><span>02</span><span>CAMINHOS PROFISSIONAIS</span></div>
+          <h2 id="areas-title">Uma tecnologia.<br><em>Muitas maneiras de fazer.</em></h2>
+        </div>
+        <p>Da criação à análise, a TI é formada por áreas que trabalham juntas para tornar ideias úteis, sistemas confiáveis e informação mais acessível.</p>
+      </div>
+      <div class="area-grid">
+        <article class="area-card area-card-feature">
+          <img class="area-image" src="images/tecnologia9.jpg" alt="Pessoa trabalhando diante de código em uma tela." loading="lazy" decoding="async">
+          <div class="area-card-body">
+            <div class="area-card-meta"><span class="area-count">CAMINHO / 01</span><span class="area-symbol symbol-code" aria-hidden="true">&lt;/&gt;</span></div>
+            <p class="area-tag">CRIAR</p><h3>Programação</h3>
+            <p>Desenvolvimento e manutenção de softwares, sites e aplicativos que atendem necessidades de pessoas e organizações.</p>
+            <a href="#caminhos" aria-label="Explore caminhos de aprendizagem em programação">Explore este caminho <span aria-hidden="true">↗</span></a>
           </div>
-          <p>A TI é diversa: há espaço para construir, proteger, testar e organizar as soluções que usamos todos os dias.</p>
-        </div>
-        <div class="row area-grid">
-          <article class="col-md-6 col-lg-4 area-column">
-            <div class="area-card">
-              <div class="area-image"><img src="images/tecnologia9.jpg" alt="Profissional desenvolvendo software" loading="lazy" decoding="async"><span class="area-icon" aria-hidden="true">&lt;/&gt;</span></div>
-              <div class="area-card-body"><span class="area-number">01 <i></i> DESENVOLVIMENTO</span><h3>Programação</h3><p>Criação e manutenção de softwares, sites e aplicativos que resolvem necessidades de pessoas e organizações.</p></div>
-            </div>
-          </article>
-          <article class="col-md-6 col-lg-4 area-column">
-            <div class="area-card">
-              <div class="area-image"><img src="images/tecnologia10.jpg" alt="Conceito de segurança e proteção de dados digitais" loading="lazy" decoding="async"><span class="area-icon" aria-hidden="true">◈</span></div>
-              <div class="area-card-body"><span class="area-number">02 <i></i> PROTEÇÃO</span><h3>Segurança da informação</h3><p>Proteção de sistemas e dados, prevenção de ameaças e resposta a incidentes digitais.</p></div>
-            </div>
-          </article>
-          <article class="col-md-6 col-lg-4 area-column">
-            <div class="area-card">
-              <div class="area-image"><img src="images/tecnologia11.jpg" alt="Equipamentos utilizados em suporte técnico" loading="lazy" decoding="async"><span class="area-icon" aria-hidden="true">⌘</span></div>
-              <div class="area-card-body"><span class="area-number">03 <i></i> OPERAÇÃO</span><h3>Suporte técnico</h3><p>Atendimento, diagnóstico e manutenção para manter equipamentos e serviços funcionando bem.</p></div>
-            </div>
-          </article>
-          <article class="col-md-6 col-lg-4 area-column">
-            <div class="area-card">
-              <div class="area-image"><img src="images/tecnologia12.jpg" alt="Tela de computador usada em testes de software" loading="lazy" decoding="async"><span class="area-icon" aria-hidden="true">✓</span></div>
-              <div class="area-card-body"><span class="area-number">04 <i></i> CONFIABILIDADE</span><h3>Qualidade de software</h3><p>Testes e acompanhamento para identificar falhas e melhorar a experiência de quem usa um produto digital.</p></div>
-            </div>
-          </article>
-          <article class="col-md-6 col-lg-4 area-column">
-            <div class="area-card">
-              <div class="area-image"><img src="images/tecnologia13-optimized.jpg" alt="Visualização de informações em uma tela" loading="lazy" decoding="async"><span class="area-icon" aria-hidden="true">▤</span></div>
-              <div class="area-card-body"><span class="area-number">05 <i></i> DADOS</span><h3>Banco de dados</h3><p>Organização, disponibilidade e integridade dos dados que apoiam sistemas e decisões.</p></div>
-            </div>
-          </article>
-          <article class="col-md-6 col-lg-4 area-column">
-            <div class="area-card area-card-feature">
-              <span class="feature-kicker">SEU PRÓXIMO PASSO</span>
-              <span class="feature-symbol" aria-hidden="true">✳</span>
-              <h3>Curiosidade é o começo.</h3>
-              <p>Explore, pratique e descubra qual parte da tecnologia desperta suas ideias.</p>
-              <a class="text-link" href="#contato">Vamos conversar <span aria-hidden="true">→</span></a>
-              <span class="feature-index" aria-hidden="true">06 / 06</span>
-            </div>
-          </article>
-        </div>
+        </article>
+        <article class="area-card">
+          <img class="area-image" src="images/tecnologia3.jpg" alt="Tecla com símbolo de impressão digital para identificação." loading="lazy" decoding="async">
+          <div class="area-card-body">
+            <div class="area-card-meta"><span class="area-count">CAMINHO / 02</span><span class="area-symbol symbol-security" aria-hidden="true">◇</span></div>
+            <p class="area-tag">PROTEGER</p><h3>Segurança da informação</h3>
+            <p>Proteção de sistemas e dados, prevenção de ameaças e resposta a incidentes digitais.</p>
+            <a href="#caminhos" aria-label="Explore caminhos de aprendizagem em segurança da informação">Explore este caminho <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+        <article class="area-card">
+          <img class="area-image" src="images/tecnologi2.jpg" alt="Pessoa apresentando símbolos de tecnologia em um tablet." loading="lazy" decoding="async">
+          <div class="area-card-body">
+            <div class="area-card-meta"><span class="area-count">CAMINHO / 03</span><span class="area-symbol symbol-support" aria-hidden="true">⌘</span></div>
+            <p class="area-tag">CONECTAR</p><h3>Suporte técnico</h3>
+            <p>Atendimento, diagnóstico e manutenção para manter equipamentos e serviços funcionando.</p>
+            <a href="#caminhos" aria-label="Explore caminhos de aprendizagem em suporte técnico">Explore este caminho <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+        <article class="area-card">
+          <img class="area-image" src="images/tecnologia14.jpg" alt="Teclas de um computador em destaque." loading="lazy" decoding="async">
+          <div class="area-card-body">
+            <div class="area-card-meta"><span class="area-count">CAMINHO / 04</span><span class="area-symbol symbol-quality" aria-hidden="true">✓</span></div>
+            <p class="area-tag">APRIMORAR</p><h3>Qualidade de software</h3>
+            <p>Testes e práticas para identificar falhas e melhorar a experiência de quem usa um produto digital.</p>
+            <a href="#caminhos" aria-label="Explore caminhos de aprendizagem em qualidade de software">Explore este caminho <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+        <article class="area-card area-card-last">
+          <img class="area-image" src="images/tecnologia13-optimized.jpg" alt="Notebook aberto com painéis de dados e gráficos." loading="lazy" decoding="async">
+          <div class="area-card-body">
+            <div class="area-card-meta"><span class="area-count">CAMINHO / 05</span><span class="area-symbol symbol-data" aria-hidden="true">▦</span></div>
+            <p class="area-tag">INTERPRETAR</p><h3>Dados</h3>
+            <p>Organização, disponibilidade e integridade das informações que apoiam sistemas e decisões.</p>
+            <a href="#caminhos" aria-label="Explore caminhos de aprendizagem em dados">Explore este caminho <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
       </div>
     </section>
 
-    <section class="contact-section" id="contato" aria-labelledby="contact-title">
-      <div class="container">
-        <div class="contact-panel">
-          <div class="contact-copy">
-            <p class="eyebrow">CONECTE-SE</p>
-            <h2 id="contact-title">Boas ideias começam com uma conversa.</h2>
-            <p>Fale com a FoxProTi pelos nossos canais. Será um prazer conversar com você.</p>
-            <a class="btn btn-accent" href="https://api.whatsapp.com/send?phone=5512997763927" target="_blank" rel="noopener noreferrer">Chamar no WhatsApp <span aria-hidden="true">↗</span></a>
-          </div>
-          <div class="contact-details">
-            <div class="contact-item">
-              <span class="detail-label"><span class="detail-dot" aria-hidden="true"></span> TELEFONE / WHATSAPP</span>
-              <a href="tel:+5512997763927">(12) 99776-3927</a>
-            </div>
-            <div class="contact-item">
-              <span class="detail-label"><span class="detail-dot" aria-hidden="true"></span> E-MAIL</span>
-              <a href="mailto:foxproti@gmail.com">foxproti@gmail.com</a>
-            </div>
-            <div class="contact-item">
-              <span class="detail-label"><span class="detail-dot" aria-hidden="true"></span> Fale conosco</span>
-              <p>Jacareí - SP · Atendimento online<br></p>
-            </div>
-            <div class="contact-item social-links">
-              <span class="detail-label"><span class="detail-dot" aria-hidden="true"></span> ACOMPANHE</span>
-              <div><a href="https://www.facebook.com/profile.php?id=100043924699159" target="_blank" rel="noopener noreferrer">Facebook <span aria-hidden="true">↗</span></a><a href="https://instagram.com/codextech.web" target="_blank" rel="noopener noreferrer">Instagram <span aria-hidden="true">↗</span></a></div>
-            </div>
-          </div>
+    <section class="statement" id="caminhos" aria-labelledby="statement-title">
+      <div class="statement-pattern" aria-hidden="true"></div>
+      <div class="statement-inner">
+        <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span> APRENDER É EXPLORAR</p>
+        <h2 id="statement-title">Você não precisa saber tudo para começar.<br><span>Precisa encontrar a próxima pergunta.</span></h2>
+        <p class="statement-copy">Observe como a tecnologia aparece no seu dia, escolha um tema que desperte curiosidade e avance passo a passo. Cada área oferece novas formas de contribuir.</p>
+        <div class="learning-path" aria-label="Três passos para começar a explorar tecnologia">
+          <div><span>01</span><b>Descobrir</b><small>O que chama sua atenção?</small></div>
+          <i aria-hidden="true">→</i>
+          <div><span>02</span><b>Experimentar</b><small>Que pequena ideia pode testar?</small></div>
+          <i aria-hidden="true">→</i>
+          <div><span>03</span><b>Compartilhar</b><small>O que aprendeu pelo caminho?</small></div>
+        </div>
+      </div>
+      <div class="statement-stamp" aria-hidden="true">F<br><span>PT</span></div>
+    </section>
+
+    <section class="contact section-pad" id="contato" aria-labelledby="contact-title">
+      <div class="contact-panel">
+        <div class="contact-copy">
+          <div class="section-kicker"><span>03</span><span>VAMOS CONVERSAR</span></div>
+          <h2 id="contact-title">Boas ideias começam com <em>uma conversa.</em></h2>
+          <p>Quer trocar uma ideia sobre tecnologia, inovação ou os caminhos da TI? Entre em contato com a FoxProTi.</p>
+          <a class="button button-orange" href="https://api.whatsapp.com/send?phone=5512997763927" target="_blank" rel="noopener noreferrer">Chamar no WhatsApp <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="contact-details">
+          <div class="contact-item"><span>TELEFONE / WHATSAPP</span><a href="tel:+5512997763927">(12) 99776-3927</a></div>
+          <div class="contact-item"><span>E-MAIL</span><a href="mailto:foxproti@gmail.com">foxproti@gmail.com</a></div>
+          <div class="contact-item"><span>LOCALIZAÇÃO</span><p>Jacareí, SP · Atendimento online</p></div>
+          <div class="contact-item contact-social"><span>ACOMPANHE</span><div><a href="https://www.facebook.com/profile.php?id=100043924699159" target="_blank" rel="noopener noreferrer">Facebook <span aria-hidden="true">↗</span></a><a href="https://instagram.com/codextech.web" target="_blank" rel="noopener noreferrer">Instagram <span aria-hidden="true">↗</span></a></div></div>
         </div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="container footer-main">
-      <a href="#inicio" class="footer-brand" aria-label="FoxProTi, voltar ao início"><img src="images/logo.png" alt=""></a>
-      <p>© 2026 FoxProTi. Todos os direitos reservados, Desenvolvido por CodexTech.</p>
-      
-      <a href="#inicio" class="back-top">Voltar ao topo <span aria-hidden="true">↑</span></a>
-    </div>
-    </footer>
+    <div class="footer-inner">
+      <div class="footer-invitation">
+        <div class="footer-invitation-copy">
+          <p class="footer-invitation-label">FOXPROTI <span aria-hidden="true">/</span> TECNOLOGIA QUE CONECTA</p>
+          <h2>Vamos falar sobre tecnologia?</h2>
+        </div>
+        <a class="footer-whatsapp" href="https://api.whatsapp.com/send?phone=5512997763927" target="_blank" rel="noopener noreferrer">Vamos conversar <span aria-hidden="true">↗</span></a>
+      </div>
 
-  <script src="js/jquery.min.js" defer></script>
-  <script src="js/bootstrap.min.js" defer></script>
+      <div class="footer-top">
+        <div class="footer-brand-block">
+          <a class="brand brand-footer" href="#inicio" aria-label="FoxProTi, voltar ao início"><img src="images/logo.png" alt="FoxProTi"></a>
+          <p>Tecnologia que conecta.<br><span>Conhecimento para transformar curiosidade em próximos passos.</span></p>
+        </div>
+
+        <nav class="footer-nav" aria-label="Navegação do rodapé">
+          <h2 class="footer-heading">EXPLORE</h2>
+          <a href="#sobre">Nosso olhar</a>
+          <a href="#areas">Áreas da TI</a>
+          <a href="#caminhos">Aprender e explorar</a>
+          <a href="#contato">Contato</a>
+        </nav>
+
+        <div class="footer-contact">
+          <h2 class="footer-heading">FALE COM A FOXPROTI</h2>
+          <a href="tel:+5512997763927">(12) 99776-3927</a>
+          <a href="mailto:foxproti@gmail.com">foxproti@gmail.com</a>
+          <p>Jacareí, SP <span>·</span> Atendimento online</p>
+          <div class="footer-socials" aria-label="Redes sociais">
+            <a href="https://www.facebook.com/profile.php?id=100043924699159" target="_blank" rel="noopener noreferrer">Facebook <span aria-hidden="true">↗</span></a>
+            <a href="https://instagram.com/codextech.web" target="_blank" rel="noopener noreferrer">Instagram <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span class="footer-copyright">© 2026 AI.Tech. Todos os direitos reservados.</span>
+        <span class="footer-signature">TECNOLOGIA <i aria-hidden="true">·</i> INOVAÇÃO <i aria-hidden="true">·</i> CONHECIMENTO</span>
+        <div class="footer-bottom-links">
+          <a class="footer-terms" href="termos-de-uso.html">Termos de uso</a>
+          <a class="back-top" href="#inicio">Voltar ao início <span aria-hidden="true">↑</span></a>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

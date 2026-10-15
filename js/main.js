@@ -1,24 +1,34 @@
-;(function () {
+﻿(function () {
+  "use strict";
 
-    'use strict';
+  var button = document.querySelector(".menu-toggle");
+  var navigation = document.querySelector(".site-nav");
+  if (!button || !navigation) return;
 
-    var wowAnimation = function() {
-        var wow = new WOW(
-            {
-                animateClass: 'animated',
-                offset:       150,
-                callback:     function(box) {
-                    console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
-                }
-            }
-        );
-        wow.init();
-    }
+  function closeMenu() {
+    button.setAttribute("aria-expanded", "false");
+    button.setAttribute("aria-label", "Abrir menu");
+    navigation.classList.remove("is-open");
+    document.body.classList.remove("menu-open");
+  }
 
+  button.addEventListener("click", function () {
+    var open = button.getAttribute("aria-expanded") === "true";
+    button.setAttribute("aria-expanded", String(!open));
+    button.setAttribute("aria-label", open ? "Abrir menu" : "Fechar menu");
+    navigation.classList.toggle("is-open", !open);
+    document.body.classList.toggle("menu-open", !open);
+  });
 
-    (function($) {
-        wowAnimation();
-    })(jQuery);
+  navigation.addEventListener("click", function (event) {
+    if (event.target.closest("a")) closeMenu();
+  });
 
+  document.addEventListener("keydown", function (event) {
+    if (event.key === "Escape") closeMenu();
+  });
 
+  window.addEventListener("resize", function () {
+    if (window.innerWidth > 760) closeMenu();
+  });
 }());
